@@ -1,0 +1,8 @@
+{
+  "name": "@chicken-rice-keyboard/docs",
+  "scripts": {
+    "docs:dev": "vitepress dev",
+    "docs:build": "vitepress build",
+    "docs:preview": "vitepress preview"
+  }
+}
