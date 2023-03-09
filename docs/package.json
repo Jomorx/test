@@ -4,5 +4,9 @@
     "docs:dev": "vitepress dev",
     "docs:build": "vitepress build",
     "docs:preview": "vitepress preview"
+  },
+  "devDependencies": {
+    "vitepress": "1.0.0-alpha.50",
+    "vue": "^3.2.47"
   }
 }
