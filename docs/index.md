@@ -4,7 +4,7 @@ layout: home
 
 hero:
   image: 
-    src: ./assets/logo.jpg
+    src: /logo.jpg
   actions:
     - theme: brand
       text: Start Reading 🧐

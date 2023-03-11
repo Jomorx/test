@@ -14,7 +14,7 @@ export default defineConfig({
       { text: "笔记", link: "/notes/" } ,
       { text: "代码", link: "/code/" },
     ],
-    logo:"../assets/logo.jpg",
+    logo:"/logo.jpg",
     sidebar: {
       "/notes/": [{ text: "目录", link: "/notes/",items:[] }],
     },
