@@ -1,29 +1,28 @@
-import { defineConfig } from 'vitepress'
+import { defineConfig } from "vitepress";
+import  fs from "fs"
+const file = fs.readdirSync("./")
+console.log(file);
 
 // https://vitepress.vuejs.org/reference/site-config
 export default defineConfig({
-  title: "My Awesome Project",
-  description: "A VitePress Site",
+  title: "study-notes",
+  description: "A Site To Record My Study",
   themeConfig: {
     // https://vitepress.vuejs.org/reference/default-theme-config
     nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: "项目", link: "/project/" },
+      { text: "笔记", link: "/notes/" } ,
+      { text: "代码", link: "/code/" },
     ],
-
-    sidebar: [
-      {
-        text: 'Examples',
-        items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
-        ]
-      }
-    ],
+    logo:"../assets/logo.jpg",
+    sidebar: {
+      "/notes/": [{ text: "目录", link: "/notes/",items:[] }],
+    },
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
-    ]
+      { icon: "github", link: "https://github.com/vuejs/vitepress" },
+    ],
   },
-  base:"/test/"
-})
+  base: "/study-notes/",
+});
+

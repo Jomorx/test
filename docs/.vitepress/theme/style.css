@@ -120,3 +120,11 @@
   transition: color 0.25s;
 }
 
+.image-bg {
+    background-image: none !important;
+}
+.image-src{
+  width: 280px !important;
+  height: 280px !important;
+
+}

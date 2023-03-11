@@ -3,23 +3,25 @@
 layout: home
 
 hero:
-  name: "My Awesome Projectaaasdasdaa"
-  text: "A VitePress Site"
-  tagline: My great project tagline
+  image: 
+    src: ./assets/logo.jpg
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: Start Reading 🧐
+      link: /notes/
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: View Other on Github 😎
+      link: https://github.com/Jomorx
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - icon: 😵
+    title: TS Challenge and LeetCode 
+    details: 记录自己的解题过程以及心得
+  - icon: 📚
+    title: Reading and Noting 
+    details: 分享自己的读书心得
+  - icon: 🔍
+    title: Project for fun 
+    details: 做的一些好玩的项目
 ---
 

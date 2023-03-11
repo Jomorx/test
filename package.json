@@ -1,11 +1,11 @@
 {
-  "name": "chicken-rice-keyboard",
+  "name": "study-notes",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "docs": "pnpm --filter @chicken-rice-keyboard/docs docs:dev",
-    "docs:build": "pnpm --filter @chicken-rice-keyboard/docs docs:build"
+    "docs": "pnpm --filter @study-notes/docs docs:dev",
+    "docs:build": "pnpm --filter @study-notes/docs docs:build"
   },
   "keywords": [],
   "author": "",
@@ -15,5 +15,8 @@
     "vite": "^4.1.4",
     "vitepress": "1.0.0-alpha.50",
     "vue": "^3.2.47"
+  },
+  "dependencies": {
+    "@study-notes/utils": "workspace:*"
   }
 }
