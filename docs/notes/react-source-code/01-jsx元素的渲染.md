@@ -19,7 +19,7 @@ jsx这两个函数的调用
 
 这两个函数调用返回的是一个js对象，也就是我们常说的vnode
 
-![img](https://images2018.cnblogs.com/blog/1013082/201803/1013082-20180313112915236-855221967.png)
+![image-20230316002725301](01-jsx元素的渲染.assets/image-20230316002725301.png)
 
 在react17以后的版本，都是采用jsx函数调用处理的jsx，jsx的主要代码就在react/jsx/jsxElement中
 
