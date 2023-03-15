@@ -54,3 +54,4 @@ export default defineConfig({
   base: "/test/",
 
 })
+console.log(getMenuNav(__dirname, "code/type-challenge"));
